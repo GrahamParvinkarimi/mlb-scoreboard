@@ -1,0 +1,43 @@
+.component-score-result-row {
+  border-bottom: 1px solid #ccc;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  height: 48px;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+
+.component-score-result-row:hover {
+  background-color: #eee;
+}
+
+.component-score-result-row img {
+  width: 48px;
+  height: 48px;
+  padding-right: 10px;
+}
+
+.component-score-result-row .title {
+  position: relative;
+  top: -16px;
+}
+
+.component-score-result-row .bold{
+  font-weight: bold;
+}
+
+.component-score-result-row .info {
+  float: right;
+  position: relative;
+  top: 8px;
+  right: 10px;
+  color: #ccc;
+  display: none;
+}
+
+.component-score-result-row:hover .info {
+  display: inline-block;
+}
